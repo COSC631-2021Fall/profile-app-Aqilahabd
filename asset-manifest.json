@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/main.df83f096.chunk.js",
+    "main.js.map": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/main.df83f096.chunk.js.map",
+    "runtime-main.js": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/runtime-main.4060b077.js",
+    "runtime-main.js.map": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/runtime-main.4060b077.js.map",
+    "static/js/2.1c8e2260.chunk.js": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/2.1c8e2260.chunk.js",
+    "static/js/2.1c8e2260.chunk.js.map": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/2.1c8e2260.chunk.js.map",
+    "index.html": "/COSC631-2021Fall/profile-app-aqilahabd.git/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1c8e2260.chunk.js.LICENSE.txt": "/COSC631-2021Fall/profile-app-aqilahabd.git/static/js/2.1c8e2260.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4060b077.js",
+    "static/js/2.1c8e2260.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.df83f096.chunk.js"
+  ]
+}
