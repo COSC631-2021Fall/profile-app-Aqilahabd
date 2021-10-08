@@ -1,43 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <title>My Resume </title>
+  <style>
+  
+      .header {
+      align-items: center;
+      background-color: maroon;
+      height: auto;
+	  
+    }
+ 
+     .name {
+      color: darkorange;
+      font-family: verdana;
+      font-size: 35px;
+    }
+	
+	 .wrapper {
+      margin: 25px;
+	  
+    }
+	.greyshape {
+      display: flex;
+    }
+	  .right {
+      flex: 1;
+      background-color: oldlace ;
+    }
+	
+	    body {
+	background-color: ghostwhite ;
+      max-width: 50em;
+	  border-style: dotted;
+	  margin: auto;
+    }
+	
+    p {
+	margin:5px;
+      font-family: courier;
+      font-size: 13px;
+	  padding: 4px 8px 4px 16px;
+    }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+ 
+    h2{
+      text-transform: uppercase;
+      font-size: 0.9em;
+      text-decoration: underline;
+      font-family: verdana;
+      letter-spacing: 2px;
+	   margin-top: -10px;}
+    h3 {
+      font-size: 90%;
+      font-family: times;
+	  font-weight: bold;
+	  font-style: italic;
+	  
+    }
+    h4 {
+      font-family: courier;
+      font-size: 90%;
+      margin-top: -10px;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+   
+    ul {
+      margin-left: -20px;
+    }
+ 
+  </style>
+</head>
+<body>
+ 
+<div class="header name">
+  <noscript> </noscript>
+  <div id="Header"> </div>
+  <div id="Contact"> </div>
+  </div> 
+<main>
+    <div class="greyshape wrapper;"> 
+      <div class="leftside">
+        <div class="wrapper">
+           <section> <h2>Education/Degree </h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <h4>University of  Dammam, College of Education, Saudi Arabia 2011 – 2015</h4></section>			
+           <section>  <h2>work experience</h2>
+            <h3>Information Technology</h3>
+            <h4>Medical Excellence Complex - Qatif , Saudi Arabia - Jul 2016 to Mar 2018 </h4>
+            <ul>
+              <li>Solved system issues and ID scanner</li>
+              <li>Repaired computers and printers almost on a daily</li>
+              <li>Maintenance work (computers , laptops and printers ) </li>
+			  <li> Educated new doctors how to deal with computers or the system </li>
+            </ul>
+			<h3>Administration Department</h3>
+            <h4>Medical Excellence Complex - Qatif , Saudi Arabia - Jul 2016 to Mar 2018 </h4>
+			<ul>
+              <li>Created and renewed staff contracts</li>
+              <li>Created and renewed health insurance card for employees</li>
+              <li>Wrote formal letters for manager and employees </li>
+			  <li>Scanned new staffs documents </li>
+            </ul> </section>			
+			 <section><h3>Reception and Medical Records  </h3>
+            <h4>Medical Excellence Complex - Qatif , Saudi Arabia - Jul 2016 to Mar 2018 </h4>
+			<ul>
+              <li>Worked at the front desk to register</li>
+              <li>Scheduled patient’s appointments</li>
+              <li>Worked in Dermatology & Beauty Clinic </li>
+			  <li>Worked Department of Residence and Expatriate Workers to register for medical checking </li>
+            </ul> </section>
+            <section> <h2>Seminars attended </h2>
+            <ul>
+              <li>Active Minds - Mental Health Monologues -  Ypsilanti, MI - April 2019</li>
+              <li>How to create and write a research paper  -  Jubail , Saudi Arabia  - Dec 2014</li>
+              <li>The Ten Secrets of a Successful Personality  - Jubail , Saudi Arabia - Dec 2014</li>
+            </ul> </section>
+        </div> 
+      </div> 
+      <div class="right wrapper">
+        <div class="wrapper"> 
+           <section>  <h2>Computer Skills</h2>
+            <ul>
+  <li>Fixing computers issue (Software ) </li>
+  <li>Computer programming languages : Visual Basic, C/C++ , HTML, Javascript</li>
+</ul> </section>
+            <section> <h2>Contact Information</h2>
+            <ul>
+  <li>Ypsilanti, MI 734-262-2581  </li>
+  <li> aalmohse@emich.edu</li>
+</ul> </section>
+        </div>
+      </div> 
+</div> 
+</main>
+</body>
 </html>
