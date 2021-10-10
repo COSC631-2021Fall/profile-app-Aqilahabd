@@ -5,7 +5,7 @@ import { useState , useEffect} from "react";
  
 function App() {
 
-  const themes=["white","powderblue","tomato"];
+  const themes=["blue","pink","red"];
   const[themeId, setThemeId]=useState(0);
  const switchTheme = () => {
   setThemeId((id) => (id+1)%3);
